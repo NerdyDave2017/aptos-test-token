@@ -1,0 +1,9 @@
+[package]
+name = 'test-token'
+version = '1.0.0'
+[dependencies.AptosFramework]
+git = 'https://github.com/aptos-labs/aptos-core.git'
+rev = 'main'
+subdir = 'aptos-move/framework/aptos-framework'
+[addresses]
+admin='8f415afdc7e84c6a7e56321a3f923120b1d3d6c512626ec055918bfc96f10940'
